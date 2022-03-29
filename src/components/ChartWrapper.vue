@@ -5,8 +5,12 @@
 </template>
 
 <script>
+import BarChart from '@/components/BarChart.vue';
 export default {
-  name: 'HelloWorld',
+  name: 'ChartWrapper',
+  components:{
+    BarChart
+  },
   props: {
     msg: String
   },
